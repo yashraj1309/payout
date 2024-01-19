@@ -146,12 +146,28 @@ background: rgba(255, 255, 255, 0.10);
     width: 100%;
     height: auto;
     z-index: 200;
-  }
-
-  .Navtop > img {
-    margin-left: 10px !important;
+    padding: 12px 32px;
   }
   .Pages {
+    display: none;
+  }
+
+  .Base_Nav_Bottom_Main {
+    width: auto;
+  }
+
+  .Base_Nav_Bottom {
+    width: auto;
+    gap: 16px;
+  }
+
+  .frame2 > input {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .Navtop > img:last-child {
     display: none;
   }
 }
