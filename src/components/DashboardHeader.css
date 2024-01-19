@@ -100,8 +100,7 @@ width: 100%;
         display: none;
     }
     .frame2 {
-        width: 260px;
-        text-overflow: ellipsis;
+        width: 180px;
     }
     .frame3 {
         display: none;
