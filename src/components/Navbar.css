@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Galano+Grotesque:wght@400;700&display=swap');
+.navbar {
+  background-color: #1e2640;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 224px;
+  height: 100vh;
+  padding: 16px 10px 16px 10px;
+  gap: 24px;
+  position: fixed;
+      top: 0;
+      left: 0;
+}
+
+.Navtop {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 192px;
+}
+
+.companylogo {
+  width: 40px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.companyName_Navtop {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.companyLink_Navtop {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: underline;
+  letter-spacing: .3px;
+  text-align: left;
+  opacity: 0.8;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+/* Pages */
+
+.Pages {
+  width: 208px;
+  height: 714px;
+}
+
+.Base_Nav_Button {
+  box-sizing: border-box;
+  width: 208px;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  gap: 12px;
+}
+
+.Base_Nav_Button > img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
+}
+
+.Base_Nav_Button > span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  opacity: 0.8;
+}
+
+/* Base Nav Bottom */
+.Base_Nav_Bottom_Main {
+  width: 192px;
+height: 54px;
+padding: 6px 12px 6px 12px;
+border-radius: 4px;
+gap: 10px;
+background: #353C53;
+
+}
+
+.Base_Nav_Bottom  {
+    width: 149px;
+height: 42px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 12px
+
+}
+.Base_Nav_Bottom > img {
+    width: 36px;
+height: 36px;
+padding: 6px;
+border-radius: 4px;
+gap: 10px;
+background-color: #FFFFFF1A
+} 
+
+.Base_Nav_Text1 {
+font-family: "Inter", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+opacity: .8;
+
+}
+.Base_Nav_Text2 {
+font-family: "Inter", sans-serif;
+font-weight: 500;
+color: #ffffff;
+}
+
+.Nav_Active {
+  border-radius: 4px;
+background: rgba(255, 255, 255, 0.10);
+}
+
+
+/* For Mobile Screens */ 
+@media only screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    z-index: 200;
+  }
+
+  .Navtop > img {
+    margin-left: 10px !important;
+  }
+  .Pages {
+    display: none;
+  }
+}
